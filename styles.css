@@ -1,0 +1,154 @@
+@font-face 
+{
+    font-family: shabnam;
+    src: url(./Assets/Shabnam.ttf);
+}
+body{
+    direction: rtl;
+}
+.container-fluid
+{
+    height: 1000px;
+    margin: 0;
+}
+
+.company-name
+{
+color: #007f62;
+font-size: 24px;
+}
+
+.navbar
+{
+    -webkit-box-shadow: 0px 4px 19px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 19px -5px rgba(0,0,0,0.75);
+    box-shadow: -2.5px 4.3px 15px 0px #e0e0e0;
+    height: 80px;
+    font-family: shabnam;
+    
+}
+.humIcon
+{
+  color: #00a680;
+}
+
+.humIcon-div
+{
+    border: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.web-header
+{
+    height:300px ;
+}
+#search-icon
+{
+color: #00a680;
+font-size: 20px;
+}
+.company-logo-div
+{
+    background-image: url(./Assets/009_logo_Bg.png);
+    width: 300px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:70px;
+    z-index: -1;
+}
+
+.carousel-indicators
+{
+    position: relative;
+}
+.slides-text-div
+{
+    height: 225px;
+    position: absolute;
+   font-family: shabnam;
+}
+.slides-text-titr
+{
+    color: #007f62;
+    font-size:24pt
+}
+.titr-underline
+{
+
+    border-bottom: 3px solid #007f62;
+ 
+}
+
+.Rectangle-1 {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+    background-image: linear-gradient(to top, #e35325, #ff8a65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+.carousel-indicators li
+{
+    background-color: gray;
+    width: 10px ;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+li.active 
+{
+    background-color: #ff7043;
+    border-radius: 140% !important;
+    transform:scale(2,1);
+}
+.company-logo-container
+{
+    background-image: url("./Assets/009_logo_Bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.web-navbar-ul li
+{
+    display: flex;
+align-content: center;
+font-family: shabnam;
+}
+.header-radar-div
+{
+    background-image: url("./Assets/010_header_wave.png");
+    background-size: cover;
+}
+@media only screen and (max-width:768px)  {
+    .slides-text-div
+    {
+        position: static;
+        font-size: 15px;
+        height: 180px;
+    }
+    .carousel-inner
+    {
+        width: 100% !important;
+    }
+
+  }
+  @media only screen and (min-width:768px ) and (max-width:1050px){
+    .carousel-inner
+    {
+        width: 100% !important;
+    }
+    .web-navbar-ul li
+    {
+        font-size: 10px;
+    }
+    .Rectangle-1
+    {
+        width: 80px;
+        height: 30px;
+    }
+  }
