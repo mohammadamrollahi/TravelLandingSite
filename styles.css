@@ -1,154 +1,435 @@
-@font-face 
-{
-    font-family: shabnam;
-    src: url(./Assets/Shabnam.ttf);
-}
-body{
-    direction: rtl;
-}
-.container-fluid
-{
-    height: 1000px;
-    margin: 0;
+@font-face {
+  font-family: shabnam;
+  src: url(./Assets/Shabnam.ttf);
 }
 
-.company-name
-{
-color: #007f62;
-font-size: 24px;
+body {
+  direction: rtl;
 }
 
-.navbar
-{
-    -webkit-box-shadow: 0px 4px 19px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 4px 19px -5px rgba(0,0,0,0.75);
-    box-shadow: -2.5px 4.3px 15px 0px #e0e0e0;
-    height: 80px;
-    font-family: shabnam;
-    
+.container-fluid {
+  height: 4000px;
+  margin: 0;
 }
-.humIcon
-{
+
+.company-name {
+  color: #007f62;
+  font-size: 24px;
+}
+
+.navbar {
+  -webkit-box-shadow: 0px 4px 19px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 19px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: -2.5px 4.3px 15px 0px #e0e0e0;
+  height: 80px;
+  font-family: shabnam;
+}
+
+.humIcon {
   color: #00a680;
 }
 
-.humIcon-div
-{
-    border: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-.web-header
-{
-    height:300px ;
-}
-#search-icon
-{
-color: #00a680;
-font-size: 20px;
-}
-.company-logo-div
-{
-    background-image: url(./Assets/009_logo_Bg.png);
-    width: 300px;
-    height: 180px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:70px;
-    z-index: -1;
+.humIcon-div {
+  border: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
-.carousel-indicators
-{
-    position: relative;
+.web-header {
+  height: 300px;
 }
-.slides-text-div
-{
-    height: 225px;
-    position: absolute;
-   font-family: shabnam;
-}
-.slides-text-titr
-{
-    color: #007f62;
-    font-size:24pt
-}
-.titr-underline
-{
 
-    border-bottom: 3px solid #007f62;
- 
+#search-icon {
+  color: #00a680;
+  font-size: 20px;
+}
+
+.company-logo-div {
+  background-image: url(./Assets/009_logo_Bg.png);
+  width: 300px;
+  height: 180px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70px;
+  z-index: -1;
+}
+
+.carousel-indicators {
+  position: relative;
+}
+
+.slides-text-div {
+  height: 225px;
+  position: absolute;
+  font-family: shabnam;
+}
+
+.slides-text-titr {
+  color: #007f62;
+  font-size: 24pt;
+}
+
+.titr-underline {
+  border-bottom: 3px solid #007f62;
 }
 
 .Rectangle-1 {
-    width: 120px;
-    height: 40px;
-    border-radius: 20px;
-    box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
-    background-image: linear-gradient(to top, #e35325, #ff8a65);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-  }
-.carousel-indicators li
-{
-    background-color: gray;
-    width: 10px ;
-    height: 10px;
-    border-radius: 50%;
-    margin: 0 10px;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
-li.active 
-{
-    background-color: #ff7043;
-    border-radius: 140% !important;
-    transform:scale(2,1);
+.carousel-indicators li {
+  background-color: gray;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 10px;
 }
-.company-logo-container
-{
-    background-image: url("./Assets/009_logo_Bg.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.web-navbar-ul li
-{
-    display: flex;
-align-content: center;
-font-family: shabnam;
-}
-.header-radar-div
-{
-    background-image: url("./Assets/010_header_wave.png");
-    background-size: cover;
-}
-@media only screen and (max-width:768px)  {
-    .slides-text-div
-    {
-        position: static;
-        font-size: 15px;
-        height: 180px;
-    }
-    .carousel-inner
-    {
-        width: 100% !important;
-    }
 
+li.active {
+  background-color: #ff7043;
+  border-radius: 140% !important;
+  transform: scale(2, 1);
+}
+
+.company-logo-container {
+  background-image: url("./Assets/009_logo_Bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.web-navbar-ul li {
+  display: flex;
+  align-content: center;
+  font-family: shabnam;
+  margin-top: 10px;
+}
+
+.header-radar-div {
+  background-image: url("./Assets/010_header_wave.png");
+  background-size: cover;
+}
+
+
+.twowawes-wawe1 {
+  opacity: 0.7;
+}
+
+.dl-bg
+{
+  transform: translateY(150px);
+
+}
+
+.partsLogo {
+  width: 72px;
+  height: 72px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #00f4bd;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.partsLogo-active {
+  width: 72px;
+  height: 72px;
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  background-image: linear-gradient(to top, #f46739, #ff9f81);
+  border: none;
+}
+.partsLogo-img {
+  font-size: 30pt;
+  background: -webkit-linear-gradient(#00f4bd, #00a680);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.partsLogo-img-active {
+  font-size: 30pt;
+  background: -webkit-linear-gradient(white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.partsLogo-row {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.partsLogo-row::-webkit-scrollbar {
+  display: none;
+}
+
+.partsLogo-div {
+  width: 140%;
+  display: flex;
+  justify-content: space-around;
+}
+.partsDescription-div {
+  padding-top: 7%;
+}
+.partsDescription-titr {
+  color: #007f62;
+  font-size: 20pt;
+  font-weight: bold;
+  font-family: shabnam;
+  text-align: center;
+  width: 100%;
+}
+.partsDescription-text {
+  font-family: shabnam;
+  text-align: justify;
+}
+.download-content-div {
+  width: 95%;
+  height: 750px;
+  border-radius: 15px;
+  box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
+  background-color: #ffffff;
+}
+.downloadicon-div {
+  height: 20%;
+}
+
+
+.downloadicon-img {
+  width: 100px;
+  height: 88px;
+}
+.download-content-titr {
+  color: #007f62;
+  font-size: 20pt;
+  font-family: shabnam;
+  text-align: center;
+}
+.download-content-undertitr {
+  font-size: 14pt;
+  font-family: shabnam;
+  text-align: center;
+}
+.download-content-phoninput {
+  width: 290px;
+  height: 50px;
+  border-radius: 25px;
+  border: solid 1px #eeeeee;
+  background-color: #fafafa;
+  outline: none;
+ 
+}
+.download-content-phonbutton {
+  width: 140px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+  font-family: shabnam;
+  outline: none;
+  cursor: pointer;
+}
+.download-content-waystext {
+  font-size: 14pt;
+  font-family: shabnam;
+  text-align: center;
+}
+.download-buttons {
+  width: 160px;
+  height: 50px;
+  border-radius: 25px;
+  box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
+  background-image: linear-gradient(to top, #00a680, #00f4bd);
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font-family: Cambria, shabnam;
+}
+
+.googleplay {
+  font-size: 18pt;
+  color: white;
+}
+@keyframes waweMove {
+  20% {
+    transform: translateX(-2000px);
   }
-  @media only screen and (min-width:768px ) and (max-width:1050px){
-    .carousel-inner
-    {
-        width: 100% !important;
-    }
-    .web-navbar-ul li
-    {
-        font-size: 10px;
-    }
-    .Rectangle-1
-    {
-        width: 80px;
-        height: 30px;
-    }
+}
+
+@media only screen and (max-width: 768px) {
+  .slides-text-div {
+    position: static;
+    font-size: 15px;
+    height: 180px;
   }
+
+  .carousel-inner {
+    width: 100% !important;
+  }
+  .app-container {
+    height: 1100px;
+  }
+  .download-content-titr-div {
+    height: 20%;
+  }
+  .download-content-input-div {
+    height: 24%;
+  }
+  .download-content-waystext-div {
+    height: 15%;
+  }
+  .download-content-waysbuttons-div {
+    height: 35%;
+  }
+  .download-content-withoutimg {
+    height: 80%;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+  .partsLogo-div {
+    width: 200%;
+  }
+  .app-container {
+    height: 1050px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
+  .carousel-inner {
+    width: 100% !important;
+  }
+
+  .web-navbar-ul li {
+    font-size: 10px;
+  }
+
+  .Rectangle-1 {
+    width: 80px;
+    height: 30px;
+  }
+  .app-container {
+    height: 600px;
+  }
+  .download-content-div
+  {
+    height: 300px;
+    border-radius: 30px;
+    margin-top: 100px;
+  }
+  .download-content-withoutimg {
+    height: 100%;
+  }
+  .download-content-phonbutton
+  {
+    position: absolute;
+    transform: translateX(-150px);
+  }
+  .download-content-phoninput
+  {
+    width: 410px;
+  }
+  .downloadicon-div
+  {
+    height: 100%;
+  }
+  .download-content-div {
+    width: 75%;
+  }
+  .download-content-waysbuttons-div
+  {
+    transform: translate(35px,32px);
+  }
+}
+@media only screen and (min-width: 1050px) {
+  .download-content-div
+  {
+    height: 300px;
+    border-radius: 30px;
+    margin-top: 100px;
+  }
+  .download-content-withoutimg {
+    height: 100%;
+  }
+  .download-content-phonbutton
+  {
+    position: absolute;
+    transform: translateX(-150px);
+  }
+  .download-content-phoninput
+  {
+    width: 410px;
+  }
+  .downloadicon-div
+  {
+    height: 100%;
+  }
+  .download-content-div {
+    width: 75%;
+  }
+  .download-content-waysbuttons-div
+  {
+    transform: translate(35px,32px);
+  }
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?cglxhb");
+  src: url("fonts/icomoon.eot?cglxhb#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?cglxhb") format("truetype"),
+    url("fonts/icomoon.woff?cglxhb") format("woff"),
+    url("fonts/icomoon.svg?cglxhb#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon_didani:before {
+  content: "\e900";
+}
+
+.icon-icon_restaurant:before {
+  content: "\e901";
+}
+
+.icon-icon_hotel:before {
+  content: "\e902";
+}
+
+.icon-icon_fly:before {
+  content: "\e903";
+}
+
+.icon-icon_nearme:before {
+  content: "\e904";
+}
+
+.icon-icon_favorites:before {
+  content: "\e905";
+}
