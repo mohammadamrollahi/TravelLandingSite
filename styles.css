@@ -8,8 +8,9 @@ body {
 }
 
 .container-fluid {
-  height: 4000px;
+  height: 2800px;
   margin: 0;
+
 }
 
 .company-name {
@@ -37,7 +38,7 @@ body {
 }
 
 .web-header {
-  height: 300px;
+  height: 250px;
 }
 
 #search-icon {
@@ -102,8 +103,8 @@ li.active {
 
 .company-logo-container {
   background-image: url("./Assets/009_logo_Bg.png");
-  background-repeat: no-repeat;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .web-navbar-ul li {
@@ -125,7 +126,7 @@ li.active {
 
 .dl-bg
 {
-  transform: translateY(150px);
+  transform: translateY(40px);
 
 }
 
@@ -189,6 +190,13 @@ li.active {
   font-family: shabnam;
   text-align: justify;
 }
+.download-content-fatherrrow
+{
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+}
+
 .download-content-div {
   width: 95%;
   height: 750px;
@@ -259,13 +267,61 @@ li.active {
   font-size: 18pt;
   color: white;
 }
-@keyframes waweMove {
-  20% {
-    transform: translateX(-2000px);
-  }
+.amadegisafar-row
+{
+height: 500px;
+display: flex;
+align-items: flex-end;
+}
+.amadegisafar-div
+{
+  height: 292px;
+  background-image: url("./Assets/amadegisafar.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.amadegi-button{
+
+    width: 160px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25), 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+    background-image: linear-gradient(to top, #e35325, #ff8a65);
+    border:none;
+    color:white;
+    font-family: shabnam;
+}
+.amadegi-text-div
+{
+  width: 55%;
+  height:300px;
+  font-family: shabnam;
+}
+.amadegi-titr
+{
+  color:white;
+  font-size: 20pt;
+}
+.amadegi-text
+{
+  color:white;
+  font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 300;
+  text-align: center;
+}
+
+.amadegi-button
+{
+  outline: none;
+  cursor: pointer;
+  transform: translateY(-30px);
 }
 
 @media only screen and (max-width: 768px) {
+  .container-fluid
+  {
+    height: 3500px;
+  }
   .slides-text-div {
     position: static;
     font-size: 15px;
@@ -275,9 +331,7 @@ li.active {
   .carousel-inner {
     width: 100% !important;
   }
-  .app-container {
-    height: 1100px;
-  }
+
   .download-content-titr-div {
     height: 20%;
   }
@@ -293,18 +347,37 @@ li.active {
   .download-content-withoutimg {
     height: 80%;
   }
-
+  .download-content-fatherrrow
+  {
+    height: 850px;
+  }
+  .amadegisafar-div
+  {
+background-image: url("./Assets/amadegisafar-mobile.png");
+background-size: cover;
+background-repeat: no-repeat;
+height: 350px;
+background-position: bottom;
+  }
+  .amadegi-text-div
+  {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 576px) {
   .partsLogo-div {
     width: 200%;
   }
-  .app-container {
-    height: 1050px;
-  }
+
+
 }
-@media only screen and (min-width: 768px) and (max-width: 1050px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .container-fluid
+  {
+    height: 2300px;
+  }
+  
   .carousel-inner {
     width: 100% !important;
   }
@@ -317,14 +390,11 @@ li.active {
     width: 80px;
     height: 30px;
   }
-  .app-container {
-    height: 600px;
-  }
+
   .download-content-div
   {
     height: 300px;
     border-radius: 30px;
-    margin-top: 100px;
   }
   .download-content-withoutimg {
     height: 100%;
@@ -348,14 +418,26 @@ li.active {
   .download-content-waysbuttons-div
   {
     transform: translate(35px,32px);
+  }
+  .amadegisafar-div
+  {
+background-image: url("./Assets/amadegisafar-mobile.png");
+background-size: cover;
+background-repeat: no-repeat;
+height: 350px;
+background-position: bottom;
+  }
+  .amadegi-text-div
+  {
+    width: 90%;
   }
 }
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 992px) {
   .download-content-div
   {
     height: 300px;
     border-radius: 30px;
-    margin-top: 100px;
+
   }
   .download-content-withoutimg {
     height: 100%;
@@ -380,6 +462,18 @@ li.active {
   {
     transform: translate(35px,32px);
   }
+  .amadegisafar-div
+  {
+
+background-size: cover;
+background-repeat: no-repeat;
+height: 380px;
+background-position: bottom;
+  }
+  .amadegi-button
+{
+  transform: translateY(30px);
+}
 }
 
 @font-face {
