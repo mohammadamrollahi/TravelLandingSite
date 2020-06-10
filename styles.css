@@ -113,8 +113,21 @@ li.active {
   align-content: center;
   font-family: shabnam;
   margin-top: 10px;
+  cursor: pointer;
 }
+.navbar-toggler
+{
+  border: none;
 
+}
+.fa-bars
+{
+color: #00a680;
+}
+.navbar-toggler-icon
+{
+color: red !important;
+}
 .header-radar-div {
   background-image: url("./Assets/010_header_wave.png");
   background-size: contain;
@@ -140,7 +153,9 @@ li.active {
   justify-content: center;
   align-items: center;
   background-color: white;
+  cursor: pointer;
 }
+
 .partsLogo-active {
   width: 72px;
   height: 72px;
