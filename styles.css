@@ -331,6 +331,14 @@ background-size: contain;
   border-radius: 15px;
 cursor: pointer;
 }
+.ideaimgs-div
+{
+overflow-x: scroll;
+}
+.ideaimgs-div-scroll
+{
+  width:1100px;
+}
 .farhangi
 {
   background-image: url("./Assets/farhangi.jpg");
