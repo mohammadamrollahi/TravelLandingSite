@@ -21,10 +21,12 @@ body {
   -webkit-box-shadow: 0px 4px 19px -5px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 4px 19px -5px rgba(0, 0, 0, 0.75);
   box-shadow: -2.5px 4.3px 15px 0px #e0e0e0;
-  height: 80px;
   font-family: shabnam;
 }
-
+.navbar-brand
+{
+color: #007f62 !important;
+}
 .humIcon {
   color: #00a680;
 }
@@ -115,7 +117,8 @@ li.active {
 
 .header-radar-div {
   background-image: url("./Assets/010_header_wave.png");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .twowawes-wawe1 {
@@ -320,13 +323,64 @@ li.active {
   font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
 }
 .ideaimg {
-  width: 17%;
-  cursor: pointer;
+width:200px;
+height: 150px;
+background-repeat: no-repeat;
+background-size: contain;
+
+  border-radius: 15px;
+cursor: pointer;
+}
+.farhangi
+{
+  background-image: url("./Assets/farhangi.jpg");
+  background-size: cover;
+}
+.tabiat
+{
+  background-image: url("./Assets/tabiatgardi.jpg");
+  background-size: cover;
+}
+.tarikhi
+{
+  background-image: url("./Assets/tarikhi.jpg");
+  background-size: cover;
+}
+.mazhabi
+{
+  background-image: url("./Assets/mazhabi.jpg");
+  background-size: cover;
+}
+.tafrihi{
+  background-image: url("./Assets/tafrihi.jpg");
+  background-size: cover;
+}
+.ideaimg:hover .ideaimg-text-div
+{
+ height: 30%;
 }
 
-.ideaimg {
-  width: 221px;
-  cursor: pointer;
+.ideaimg-text-div
+{
+width: 100%;
+height: 0%;
+background-color: black;
+opacity: 0.6;
+border-bottom-right-radius:15px ;
+border-bottom-left-radius:15px ;
+transition: 0.5s ;
+}
+.ideaimg-text
+{
+ font-size: 10pt;
+  font-family: shabnam;
+  color: white;
+  display: none;
+
+}
+.ideaimg:hover .ideaimg-text
+{
+  display: inline;
 }
 .ideaimgs-div {
   overflow-x: scroll;
@@ -481,10 +535,38 @@ height: 90px;
 {
   width: 100px;
 }
-@media only screen and (max-width: 768px) {
-  .container-fluid {
-    /* height: 5000px; */
+
+@media only screen and (max-width: 576px) {
+  .container-fluid
+  {
+    height: 4560px;
   }
+  .partsLogo-div {
+    width: 200%;
+  }
+  .ideabutton {
+    transform: translate(0, 70px);
+  }
+  .ideaemail-div {
+    height: 500px;
+    background-color: #e1fff8;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .ideabutton {
+    transform: translate(0, 70px);
+  }
+  .ideaemail-div {
+    height: 500px;
+    background-color: #e1fff8;
+  }
+  .container-fluid
+  {
+    height: 4650px;
+  }
+}
+@media only screen and (max-width: 767.98px) {
   .slides-text-div {
     position: static;
     font-size: 15px;
@@ -525,35 +607,6 @@ height: 90px;
   }
 }
 
-@media only screen and (max-width: 576px) {
-  .container-fluid
-  {
-    height: 4560px;
-  }
-  .partsLogo-div {
-    width: 200%;
-  }
-  .ideabutton {
-    transform: translate(0, 70px);
-  }
-  .ideaemail-div {
-    height: 500px;
-    background-color: #e1fff8;
-  }
-}
-@media only screen and (min-width: 576px) and (max-width: 768px) {
-  .ideabutton {
-    transform: translate(0, 70px);
-  }
-  .ideaemail-div {
-    height: 500px;
-    background-color: #e1fff8;
-  }
-  .container-fluid
-  {
-    height: 4650px;
-  }
-}
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .container-fluid {
     /* height: 5000px; */

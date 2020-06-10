@@ -4,8 +4,8 @@
 	 viewBox="0 0 50 600" style="enable-background:new 0 0 50 600;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
-	.st1{fill:#68C4A9;stroke:#00A680;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#00E8AB;stroke-width:2;stroke-miterlimit:10;}
 </style>
-<path class="st0" d="M27.94,600"/>
+<path class="st0" d="M27.9,600"/>
 <line class="st1" x1="25" y1="0" x2="25" y2="600"/>
 </svg>
