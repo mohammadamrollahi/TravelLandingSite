@@ -11,7 +11,7 @@ $(".partsLogo").on("click",function(){
     $(this).addClass("partsLogo-active");
     $(this).children().addClass("partsLogo-img-active")
 })
-// $(document).ready(function(){
-// $(".ideaimg ").hover(function(){
-//     $(this).children().css("display","block")},function(){})
-// })
+
+$(window).on("load",function(){
+    $(".loading").fadeOut()
+})
